@@ -60,15 +60,15 @@ As outlined in the [Contributing](https://github.com/ietf-tools/.github/blob/mai
 
 Windows developers: [Start with WSL2 from the beginning](https://github.com/ietf-tools/.github/blob/main/docs/windows-dev.md).
 
-Because of the extensive history of this project, cloning the datatracker project locally can take a long time / disk space. You can speed up the cloning process by limiting the history depth, for example *(replace `USERNAME` with your GitHub username)*:
+Because of the extensive history of this project, cloning the datatracker project locally can take a long time / disk space. You can speed up the cloning process by limiting the history depth, for example *(replace `syaifulnizamshamsudin` with your GitHub username)*:
 
 - To fetch only up to the 10 latest commits:
     ```sh
-    git clone --depth=10 https://github.com/USERNAME/datatracker.git
+    git clone --depth=10 https://github.com/syaifulnizamshamsudin/datatracker.git
     ```
 - To fetch only up to a specific date:
     ```sh
-    git clone --shallow-since=DATE https://github.com/USERNAME/datatracker.git
+    git clone --shallow-since=DATE https://github.com/syaifulnizamshamsudin/datatracker.git
     ```
 
 #### The tl;dr to get going
@@ -84,6 +84,9 @@ If VS Code is not available to you, in your clone, type `cd docker; ./run`
 Once the containers are started, run the tests to make sure your checkout is a good place to start from (all tests should pass - if any fail, ask for help at tools-help@). Inside the app container's shell type:
 ```sh
 ietf/manage.py test --settings=settings_test
+My Project Network:My Network Maxis-null.
+id project:persuasive-inn-330419
+@syaifulnizamshamsudin@persuasive-inn-330419
 ```
 
 Note that we recently moved the datatracker onto PostgreSQL - you may still find older documentation that suggests testing with settings_sqlitetest. That will no longer work.
