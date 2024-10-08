@@ -85,5 +85,6 @@
     // "postCreateCommand": "sh /docker-init.sh",
     
     // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-    "remoteUser": "dev"
+    "remoteUser": "dev"      //
+    // Access Data Admin Centre for Microsoft Open Source
 }
